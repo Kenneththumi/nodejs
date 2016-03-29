@@ -6,7 +6,7 @@
 //get the utilities required
 var http = require('http');
 var fs = require('fs');
-
+//create http instance and then create server instance & bind it at port 9090 using listen method associated with server instance
 http.createServer (function (request, response){
 	var url = request.url;
 	//routing algorithm
